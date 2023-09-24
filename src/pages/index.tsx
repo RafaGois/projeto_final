@@ -15,11 +15,11 @@ const clientes = [
 
 export default function Home() {
 
-  function clienteSelecionado (cliente: Cliente) {
+  function clienteSelecionado(cliente: Cliente) {
     console.log(cliente);
   }
 
-  function clienteExcluido (cliente: Cliente) {
+  function clienteExcluido(cliente: Cliente) {
     console.log(cliente + " excluido");
   }
 
@@ -27,10 +27,12 @@ export default function Home() {
   return (
     <div className="flex h-screen justify-center items-center bg-gradient-to-r from-blue-500 via-blue-700 to-indigo-900">
       <Layout titulo="Cadastri Simples">
-        <Botao>Novo Cliente</Botao>
+        <div className="flex justify-end">
+          <Botao className="mb-4" cor="green">Novo Cliente</Botao>
+        </div>
         <Tabela clientes={clientes} clienteSelecionado={clienteSelecionado} clienteExcluido={clienteExcluido}></Tabela>
       </Layout>
-      
+
     </div>
   )
 }

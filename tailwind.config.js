@@ -14,5 +14,16 @@ module.exports = {
       },
     },
   },
+  safelist: [
+    {
+      pattern: /^bg-/,
+    },
+    {
+      pattern: /^from-/
+    },
+    {
+      pattern: /^to-/
+    }
+  ],
   plugins: [],
 }
