@@ -1,0 +1,6 @@
+apiKey: "AIzaSyCURWO8468lQ1-FaRa8jdtuOH9TcCAqqTA",
+  authDomain: "projetofinal-37b1c.firebaseapp.com",
+  projectId: "projetofinal-37b1c",
+  storageBucket: "projetofinal-37b1c.appspot.com",
+  messagingSenderId: "562586147330",
+  appId: "1:562586147330:web:5cf0c74bba174163c1251b"
