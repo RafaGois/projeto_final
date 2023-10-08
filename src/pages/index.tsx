@@ -6,7 +6,7 @@ import useClientes from "@/hooks/useClientes";
 
 export default function Home() {
 
-  const { selecionarCliente, novoCliente, excluirCliente, salvarCliente, cliente, clientes, tabelaVisivel, exibirTabela} = useClientes();
+  const { selecionarCliente, novoCliente, excluirCliente, salvarCliente, cliente, clientes, tabelaVisivel, exibirTabela } = useClientes();
 
   return (
     <div className="flex h-screen justify-center items-center bg-gradient-to-r from-blue-500 via-blue-700 to-indigo-900">
